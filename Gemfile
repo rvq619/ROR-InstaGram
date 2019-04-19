@@ -62,10 +62,13 @@ end
 gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
 
 # Bootstrap Ruby Gem for Rails
-gem 'bootstrap', '~> 4.1.1'
+gem 'bootstrap', '~> 4.3.1'
 
 # Bootstrap JavaScript jQuery
 gem 'jquery-rails'
 
 # Font Awesome
 gem 'font-awesome-rails'
+
+# Devise flexible authentication solution for Rails
+gem 'devise'
